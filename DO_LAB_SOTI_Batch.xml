@@ -177,4 +177,8 @@
     <parm name="Package" value="net.soti.mobicontrol.androidwork" />
     <parm name="Class" value="net.soti.mobicontrol.startup.SplashActivity" />
   </characteristic>
+  <wap-provisioningdoc>
+   <characteristic type="PowerMgr" version="4.4" >
+   <parm name="ResetAction" value="5"/>
+  </characteristic> 
 </wap-provisioningdoc>
