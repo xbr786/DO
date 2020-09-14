@@ -1,0 +1,183 @@
+﻿<wap-provisioningdoc>
+  <characteristic version="4.2" type="UsbMgr">
+    <parm name="UsbADBUsage" value="1" />
+  </characteristic>
+  <characteristic version="6.0" type="DevAdmin">
+    <parm name="ScreenLockType" value="5" />
+  </characteristic>
+  <characteristic version="6.0" type="Clock">
+    <parm name="AutoTimeZone" value="false" />
+    <parm name="TimeZone" value="Europe/Prague" />
+    <parm name="AutoTime" value="true" />
+    <characteristic type="AutoTimeDetails">
+      <parm name="NTPServer" value="time.google.com" />
+      <parm name="SyncInterval" value="00:30:00" />
+    </characteristic>
+  </characteristic>
+  <characteristic version="7.1" type="UiMgr">
+    <parm name="CurrentLocale" value="en" />
+  </characteristic>
+  <characteristic version="4.4" type="AudioVolUIMgr">
+    <parm name="MuteVibrateState" value="2" />
+  </characteristic>
+  <characteristic version="7.0" type="Intent">
+    <parm name="Action" value="Broadcast" />
+    <parm name="ActionName" value="com.symbol.rxlogger.intent.action.ENABLE" />
+  </characteristic>
+  <characteristic version="7.0" type="BugReportMgr">
+    <parm name="BugReportProfile" value="new" />
+    <parm name="EnableBRInPwrMenu" value="True" />
+    <characteristic type="DialogDetails">
+      <parm name="DialogAction" value="none" />
+    </characteristic>
+    <characteristic type="StorageDetails">
+      <parm name="StorageEnable" value="none" />
+    </characteristic>
+    <characteristic type="EmailDetails">
+      <parm name="EmailEnable" value="none" />
+    </characteristic>
+    <characteristic type="CloudDetails">
+      <parm name="CloudEnable" value="none" />
+    </characteristic>
+    <parm name="SetDialogTimeout" value="True" />
+    <parm name="DialogTimeout" value="60000" />
+    <parm name="EnableScreenshot" value="True" />
+    <parm name="EnableIntent" value="True" />
+  </characteristic>
+  <characteristic version="5.2" type="Wi-Fi">
+    <parm name="UseRegulatory" value="0" />
+    <parm name="UseDiagnosticOptions" value="0" />
+    <parm name="UseAdvancedOptions" value="0" />
+    <parm name="NetworkAction" value="RemoveAll" />
+    <parm name="UseHotspotOptions" value="0" />
+  </characteristic>
+  <characteristic version="5.2" type="Wi-Fi">
+    <parm name="UseRegulatory" value="0" />
+    <parm name="UseDiagnosticOptions" value="0" />
+    <parm name="UseAdvancedOptions" value="0" />
+    <parm name="NetworkAction" value="Add" />
+    <characteristic type="network-profile">
+      <parm name="SSID" value="EMEATECH" />
+      <parm name="SecurityMode" value="1" />
+      <parm name="WPAMode" value="2" />
+      <characteristic type="auth-details">
+        <characteristic type="encryption-details">
+          <parm name="EncryptionWPA2" value="3" />
+        </characteristic>
+      </characteristic>
+      <characteristic type="key-details">
+        <parm name="KeyType" value="Passphrase" />
+        <parm name="ProtectKey" value="1" />
+        <parm name="PassphraseWPAEncrypted" value="&amp;#1270&amp;#127BMEuFOTD++Cms+3PVGxGv+WGPr1ba36y/JnZjxtiPgHAlCYAcIs8rfeWD03XB3WwX54PvZ8x6Ux71HUeYAU3STs3rg3o7hB5yGVNp/6lUDQxA9F9LKZfbqINX80iZBwP1QabAkn5Ffw8R7/tEFF7KiM8PNZ5YiJdemRyiLBGSCfj1y4YQPUa0GXPI4/bQN0HMOLBhQ8FIt31aDrnZyszIiIdTYcvEkUfahG3subeFOOCmwiv5AuQx/NSpN0GKQSWn9jDiESV8DNHbcNbTvIlDchSf5xvFv5maAIIQ5QotE7o8LT9p+KHDq+ObSkvAWhrxHMO+BcXdebm16tBsyr0SA==" />
+      </characteristic>
+      <parm name="UseDHCP" value="1" />
+      <parm name="UseProxy" value="0" />
+    </characteristic>
+    <parm name="UseHotspotOptions" value="0" />
+  </characteristic>
+  <characteristic version="5.2" type="Wi-Fi">
+    <parm name="UseRegulatory" value="0" />
+    <parm name="UseDiagnosticOptions" value="0" />
+    <parm name="UseAdvancedOptions" value="0" />
+    <parm name="NetworkAction" value="Add" />
+    <characteristic type="network-profile">
+      <parm name="SSID" value="ZGuest" />
+      <parm name="SecurityMode" value="1" />
+      <parm name="WPAMode" value="2" />
+      <characteristic type="auth-details">
+        <characteristic type="encryption-details">
+          <parm name="EncryptionWPA2" value="3" />
+        </characteristic>
+      </characteristic>
+      <characteristic type="key-details">
+        <parm name="KeyType" value="Passphrase" />
+        <parm name="ProtectKey" value="1" />
+        <parm name="PassphraseWPAEncrypted" value="&amp;#1270&amp;#127mdVXBiwXDMrQM3YBdz0EPNo7GutSpiqyFYBAKoBAHM9RPejJBAK3VkFVaUKf8KWouP/qFbjRzC6XpD3GAgV+yCK+iWlwVDFaaghvdGkxCn5EpbonQL98Na0TVcX6vUYPSC9OEiIloOIdgLCY/94POELrUtszk74QKCJm0I4mPhkLUkX+bJ2kMJDLcnHwGHpwEvLZ9E1HQed4KV3JzSvLqN3pTTt7OLo/ZmFPBnj1N3NvmKebo61/BH9+mUKYSaZB9rHeDtDGu0L7iEpfgRbq1ZfaW8cNh8ki4WUCmXFptitg2fp0ua91HENfmWsZGTLyRGa4DpgBqTpk0rchRsmJLw==" />
+      </characteristic>
+      <parm name="UseDHCP" value="1" />
+      <parm name="UseProxy" value="0" />
+    </characteristic>
+    <parm name="UseHotspotOptions" value="0" />
+  </characteristic>
+  <characteristic version="5.2" type="Wi-Fi">
+    <parm name="UseRegulatory" value="0" />
+    <parm name="UseDiagnosticOptions" value="0" />
+    <parm name="UseAdvancedOptions" value="0" />
+    <parm name="NetworkAction" value="Add" />
+    <characteristic type="network-profile">
+      <parm name="SSID" value="expats" />
+      <parm name="SecurityMode" value="1" />
+      <parm name="WPAMode" value="2" />
+      <characteristic type="auth-details">
+        <characteristic type="encryption-details">
+          <parm name="EncryptionWPA2" value="3" />
+        </characteristic>
+      </characteristic>
+      <characteristic type="key-details">
+        <parm name="KeyType" value="Passphrase" />
+        <parm name="ProtectKey" value="1" />
+        <parm name="PassphraseWPAEncrypted" value="&amp;#1272&amp;#127Ad7HZy52tVyfZMsDWfq/KNmDN9P9v7I18Z1F5BL9FpdoH0218vHWhEr6DBcuHXfjr5wKlvgfcPue1kbBonQEaSCDWmTDR1rPaq3WmLV/0gt2O1oPUcRJHLGDOZfDnY8IrAe0Y2zAI5m9ak5/7sOhcDPtdW1oak31tpXSNfpe/VajyKuqgoAOOUKo3wuey8aZHAv+EeBXHX63U9hqmortPnT2rOfcroWqT84aGUQnOXjYAuUeElifKut6Zy2uuPVLsl+oNyhyGCRUcBI+1eR0wopYsw6u5vlUHORxY4NRL5SHXjiP1XV5gWOIzvQHRacz/JZlyjxrGxkhqhjYZCI98g==" />
+      </characteristic>
+      <parm name="UseDHCP" value="1" />
+      <parm name="UseProxy" value="0" />
+    </characteristic>
+    <parm name="UseHotspotOptions" value="0" />
+  </characteristic>
+  <characteristic version="5.2" type="Wi-Fi">
+    <parm name="UseRegulatory" value="0" />
+    <parm name="UseDiagnosticOptions" value="0" />
+    <parm name="UseAdvancedOptions" value="0" />
+    <parm name="NetworkAction" value="Connect" />
+    <characteristic type="network-profile">
+      <parm name="SSID" value="ZGuest" />
+    </characteristic>
+    <parm name="UseHotspotOptions" value="0" />
+  </characteristic>
+  <characteristic version="7.2" type="PowerMgr">
+    <parm name="SUWByPass" value="1" />
+  </characteristic>
+  <characteristic version="4.2" type="PersistMgr">
+    <parm name="PersistAction" value="1" />
+    <characteristic type="persist-details">
+      <parm name="PersistAsName" value="DO_LAB_SOTI" />
+      <parm name="PersistAsVersion" value="2" />
+      <parm name="PersistIfError" value="true" />
+    </characteristic>
+  </characteristic>
+  <characteristic version="5.0" type="FileMgr">
+    <parm name="FileAction" value="1" />
+    <characteristic type="file-details">
+      <parm name="TargetAccessMethod" value="2" />
+      <parm name="TargetPathAndFileName" value="/enterprise/usr/GoogleMobiControl_AE.apk" />
+      <parm name="SourceAccessMethod" value="1" />
+      <parm name="SourceURI" value="&amp;#1270&amp;#127bhbRQYFleKj513yB0PX99mSWkDSAHHnpfh/F3hBHcoo2abV7ybIdUZGrgME6nvf6xVDNcunkXJ03wA8p+JZsqx0vxDDEZFK6kclcFW1bdzRKIJsZFEG3xGzTIy5ePxYCblwzCspI4C3QPGhIXdTnCGk765e0nlGRnpKyaFNyu7zxjBUl9rp2+sTtK8Z3JOhTF/9Nkvra0c6ddVf2oog5N3w7PXTDWP71AKB1S0InZtdFOA5XlZOenLWW+Jm14yR7sM5d6A2sU+aok5HGMpesPoVkOXCk0NbiR8FCuudoIJolp1D3h3gAvoGMlr7sxI0ol4WVtGyeu06B5Y+sszAI9w==" />
+    </characteristic>
+  </characteristic>
+  <characteristic version="5.0" type="FileMgr">
+    <parm name="FileAction" value="1" />
+    <characteristic type="file-details">
+      <parm name="TargetAccessMethod" value="2" />
+      <parm name="TargetPathAndFileName" value="/enterprise/usr/mcsetup.ini" />
+      <parm name="SourceAccessMethod" value="1" />
+      <parm name="SourceURI" value="&amp;#1270&amp;#127ZfK5VrOqjt4TxfAmAyNvlELjMljM3eyRL+3xWn1RGUbjrr+EKs+9YP4CUsA/sC1erFjMBiTxde1CaOqIwev/GgEU+CWOqfmcYC0MhlKgNVYzcfP0h8TR1PaLUraXdtYWuS8G0bRQs9zP3PfmdYK0rpkX7T1LsPoZDatf0u+3rgyNZjrkeLgClTaeFOTh6NSfgPXzXOa5rIR+FDMqMOjGx3nlIEfS/aCGZQCzgcnbIy6vkswCUNiuU//jTZotPuGm00fGAZ3GePChGD7rut4Q30XzNrDtXpupQdS8DdZd/Bx6iORuuPkz9QYZsxWYqmsHtEzHFridyrFqVO641OEbuw==" />
+    </characteristic>
+  </characteristic>
+  <characteristic version="7.0" type="AppMgr">
+    <parm name="Action" value="Install" />
+    <parm name="APK" value="/enterprise/usr/GoogleMobiControl_AE.apk" />
+  </characteristic>
+  <characteristic version="7.0" type="Intent">
+    <parm name="Action" value="EnrollDeviceOwner" />
+    <parm name="Package" value="net.soti.mobicontrol.androidwork" />
+    <parm name="Class" value="net.soti.mobicontrol.admin.DeviceAdminAdapter" />
+  </characteristic>
+  <characteristic version="7.0" type="Intent">
+    <parm name="Action" value="StartActivity" />
+    <parm name="ActionName" value="Lunch Agent" />
+    <parm name="Package" value="net.soti.mobicontrol.androidwork" />
+    <parm name="Class" value="net.soti.mobicontrol.startup.SplashActivity" />
+  </characteristic>
+   <characteristic type="PowerMgr" version="4.4" >
+   <parm name="ResetAction" value="5"/>
+  </characteristic> 
+</wap-provisioningdoc>
