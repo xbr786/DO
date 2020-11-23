@@ -1,0 +1,114 @@
+﻿<wap-provisioningdoc>
+  <characteristic version="5.2" type="Wi-Fi">
+    <characteristic type="System">
+      <parm name="WiFiAction" value="enable" />
+      <parm name="WifiSleepPolicy" value="PluggedIn" />
+    </characteristic>
+    <parm name="UseRegulatory" value="0" />
+    <parm name="UseDiagnosticOptions" value="0" />
+    <parm name="UseAdvancedOptions" value="0" />
+    <parm name="NetworkAction" value="Remove" />
+    <characteristic type="network-profile">
+      <parm name="SSID" value="101" />
+    </characteristic>
+    <parm name="UseHotspotOptions" value="0" />
+  </characteristic>
+  <characteristic version="5.2" type="Wi-Fi">
+    <parm name="UseRegulatory" value="0" />
+    <parm name="UseDiagnosticOptions" value="0" />
+    <parm name="UseAdvancedOptions" value="0" />
+    <parm name="NetworkAction" value="Add" />
+    <characteristic type="network-profile">
+      <parm name="SSID" value="ZGuest" />
+      <parm name="SecurityMode" value="1" />
+      <parm name="WPAMode" value="3" />
+      <characteristic type="auth-details">
+        <characteristic type="encryption-details">
+          <parm name="EncryptionWPA2" value="1" />
+        </characteristic>
+      </characteristic>
+      <characteristic type="key-details">
+        <parm name="KeyType" value="Passphrase" />
+        <parm name="ProtectKey" value="1" />
+        <parm name="PassphraseWPAEncrypted" value="&amp;#1270&amp;#127RNBc+ojZTybSI7rzPSF72GhCHHRnaHzI49KfRD96xqWI0Ah91WfjJSRG31B7egF89nfdMfgrH0xp8rF90acN8d6Pf1sL7X7BYgdgFMV6hcwBwhna4SxwSZWrUDYuFIqdWzLfS/Yzixyk2JN8ocawP2+8x7IWkpcRg8AwNwrghiBCBxnlULtMnge+5F0JsLaCB8vv9OqSp0M/3MDbjNZArZnDFMlfY13ANK90XxDkP8I4+DP9TsSjEKCKAn/oNVlem+a6dcCHokkScA7hrvYh1Mr/Zkk4RDbbsOi059d0Hc/DTApSW1/45DbPdDNHYiVnf7qAlaQOq26yOeo7VdFeWA==" />
+      </characteristic>
+      <parm name="UseDHCP" value="1" />
+      <parm name="UseProxy" value="0" />
+    </characteristic>
+    <parm name="UseHotspotOptions" value="0" />
+  </characteristic>
+  <characteristic version="5.2" type="Wi-Fi">
+    <parm name="UseRegulatory" value="0" />
+    <parm name="UseDiagnosticOptions" value="0" />
+    <parm name="UseAdvancedOptions" value="0" />
+    <parm name="NetworkAction" value="Connect" />
+    <characteristic type="network-profile">
+      <parm name="SSID" value="ZGuest" />
+    </characteristic>
+    <parm name="UseHotspotOptions" value="0" />
+  </characteristic>
+  <characteristic version="4.2" type="UsbMgr">
+    <parm name="UsbADBUsage" value="1" />
+  </characteristic>
+  <characteristic version="6.0" type="Clock">
+    <parm name="AutoTimeZone" value="false" />
+    <parm name="TimeZone" value="Europe/Prague" />
+    <parm name="AutoTime" value="true" />
+    <characteristic type="AutoTimeDetails">
+      <parm name="NTPServer" value="time.google.com" />
+      <parm name="SyncInterval" value="00:30:00" />
+    </characteristic>
+  </characteristic>
+  <characteristic version="7.1" type="UiMgr">
+    <parm name="CurrentLocale" value="en" />
+  </characteristic>
+  <characteristic version="7.0" type="Intent">
+    <parm name="Action" value="Broadcast" />
+    <parm name="ActionName" value="com.symbol.rxlogger.intent.action.ENABLE" />
+  </characteristic>
+  <characteristic version="7.1" type="PowerMgr">
+    <parm name="SUWByPass" value="1" />
+  </characteristic>
+  <characteristic version="4.2" type="PersistMgr">
+    <parm name="PersistAction" value="1" />
+    <characteristic type="persist-details">
+      <parm name="PersistAsName" value="DO_LAB_SOTI" />
+      <parm name="PersistAsVersion" value="4.0" />
+      <parm name="PersistAsOrder" value="1" />
+      <parm name="PersistIfError" value="false" />
+    </characteristic>
+  </characteristic>
+  <characteristic version="5.0" type="FileMgr">
+    <parm name="FileAction" value="1" />
+    <characteristic type="file-details">
+      <parm name="TargetAccessMethod" value="2" />
+      <parm name="TargetPathAndFileName" value="/sdcard/GoogleMobiControl_AE.apk" />
+      <parm name="SourceAccessMethod" value="1" />
+      <parm name="SourceURI" value="&amp;#1270&amp;#127OH83Db/IYNIX7nnGDHYrL8Gys+bT+XDzE+DeFotNv8idJVvEPiXZkf/SBLDASc++tl/t9l/0A9uww4GBOBsao7vMZA9Cp+F4kWU5Vm4/gicSdpHdI2ga4M8we9qG4ORxAkREQqZ8+6AKMpfbDHNOEzm5lqcAmoSMVI7nNdMNTgkXBNo0HUYyPOvpGN2m0bSzdIbrGht3oBBMM40geUKEm2nSYInknG6ncAlNPvb8heFTvlKshtSv529T3WH+HT3B/nT63ZkLUlh6mq9oitdAkhkuJdLutlswqioH6zv0Dxz/Tzi0FmmfIdLS6ILnhvTEMzMX9r4Siw5YWTuBBCdAbg==" />
+    </characteristic>
+  </characteristic>
+  <characteristic version="5.0" type="FileMgr">
+    <parm name="FileAction" value="1" />
+    <characteristic type="file-details">
+      <parm name="TargetAccessMethod" value="2" />
+      <parm name="TargetPathAndFileName" value="/sdcard/mcsetup.ini" />
+      <parm name="SourceAccessMethod" value="1" />
+      <parm name="SourceURI" value="&amp;#1270&amp;#127Wswov4SaMx24hycEJFr6jjYe+8JjUKnR0xpaU3bELGtm579VgaaSl3HHUIA2Z4zFjM1UPUJRKeG9BdoeHsHQMdG1MjQP7bljSb9WsSyTBBuslpIxciYL2cLtqo0RsHtlkMKzUTZ8OF4hlycLOXtWKcf4uZ50IgA8RkEOOEd6PpB482i0YJNB0i2YqkaMKfzmlWTH2VsNHFxJTaU8gNz+YrbL8ILYDBvQogd1tgY2NT5XK7JMldJUwQHAWg4CeP6f2Hj6C3U4EGhn+hIywZMmHT1rdVo7CCW0YLh9dCHvLBA/u9BOtfbkFRTdlCwEg4O+QjqllFKZz8oJ2fiuig9wXw==" />
+    </characteristic>
+  </characteristic>
+  <characteristic version="7.0" type="AppMgr">
+    <parm name="Action" value="Install" />
+    <parm name="APK" value="/sdcard/GoogleMobiControl_AE.apk" />
+  </characteristic>
+  <characteristic version="7.0" type="Intent">
+    <parm name="Action" value="EnrollDeviceOwner" />
+    <parm name="Package" value="net.soti.mobicontrol.androidwork" />
+    <parm name="Class" value="net.soti.mobicontrol.admin.DeviceAdminAdapter" />
+  </characteristic>
+  <characteristic version="7.0" type="Intent">
+    <parm name="Action" value="StartActivity" />
+    <parm name="ActionName" value="android.intent.action.MAIN" />
+    <parm name="Package" value="net.soti.mobicontrol.androidwork" />
+    <parm name="Class" value="net.soti.mobicontrol.startup.SplashActivity" />
+  </characteristic>
+</wap-provisioningdoc>
