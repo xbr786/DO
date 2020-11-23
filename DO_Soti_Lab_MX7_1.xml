@@ -96,18 +96,18 @@
     <parm name="FileAction" value="1" />
     <characteristic type="file-details">
       <parm name="TargetAccessMethod" value="2" />
-      <parm name="TargetPathAndFileName" value="/sdcard/mcsetup.ini" />
+      <parm name="TargetPathAndFileName" value="/sdcard/GoogleMobiControl_AE.apk" />
       <parm name="SourceAccessMethod" value="1" />
-      <parm name="SourceURI" value="&amp;#1270&amp;#127Ub4gFhZrWIZM//Di/1Si4QbGObEpQ3UqWDN5ph1Bbc1IHeaBOsdx7iSoe6ZMyYeQk+FFDf4m/M5jvOcZr4e/HpjljAVs2wQy6GfXrpguCiaYiV/AIERyypKfUzYDl0I7zTXPYGBkWjAGrQ48xbjO6YL+TkrxVcOMJ4pSk92olgDgvGb2DrBjyrJ1kuh2Y2wptisiNaJBGsrj45TAI6otQy1hGByWBFBkPzSiOsIbEeZVF9WXjWUAc3CIeHONqqLhI45Hw3rIY77lbUdqhOYSd05Y5GiNzcMJUk59YzAXvxU62T5xMRBRG4VxEhn+FviYrSuezVIL9Y1VxqP9rW+CwA==" />
+      <parm name="SourceURI" value="&amp;#1270&amp;#127OH83Db/IYNIX7nnGDHYrL8Gys+bT+XDzE+DeFotNv8idJVvEPiXZkf/SBLDASc++tl/t9l/0A9uww4GBOBsao7vMZA9Cp+F4kWU5Vm4/gicSdpHdI2ga4M8we9qG4ORxAkREQqZ8+6AKMpfbDHNOEzm5lqcAmoSMVI7nNdMNTgkXBNo0HUYyPOvpGN2m0bSzdIbrGht3oBBMM40geUKEm2nSYInknG6ncAlNPvb8heFTvlKshtSv529T3WH+HT3B/nT63ZkLUlh6mq9oitdAkhkuJdLutlswqioH6zv0Dxz/Tzi0FmmfIdLS6ILnhvTEMzMX9r4Siw5YWTuBBCdAbg==" />
     </characteristic>
   </characteristic>
   <characteristic version="5.0" type="FileMgr">
     <parm name="FileAction" value="1" />
     <characteristic type="file-details">
       <parm name="TargetAccessMethod" value="2" />
-      <parm name="TargetPathAndFileName" value="/sdcard/GoogleMobiControl_AE.apk" />
+      <parm name="TargetPathAndFileName" value="/sdcard/mcsetup.ini" />
       <parm name="SourceAccessMethod" value="1" />
-      <parm name="SourceURI" value="&amp;#1270&amp;#127OH83Db/IYNIX7nnGDHYrL8Gys+bT+XDzE+DeFotNv8idJVvEPiXZkf/SBLDASc++tl/t9l/0A9uww4GBOBsao7vMZA9Cp+F4kWU5Vm4/gicSdpHdI2ga4M8we9qG4ORxAkREQqZ8+6AKMpfbDHNOEzm5lqcAmoSMVI7nNdMNTgkXBNo0HUYyPOvpGN2m0bSzdIbrGht3oBBMM40geUKEm2nSYInknG6ncAlNPvb8heFTvlKshtSv529T3WH+HT3B/nT63ZkLUlh6mq9oitdAkhkuJdLutlswqioH6zv0Dxz/Tzi0FmmfIdLS6ILnhvTEMzMX9r4Siw5YWTuBBCdAbg==" />
+      <parm name="SourceURI" value="&amp;#1270&amp;#127Ub4gFhZrWIZM//Di/1Si4QbGObEpQ3UqWDN5ph1Bbc1IHeaBOsdx7iSoe6ZMyYeQk+FFDf4m/M5jvOcZr4e/HpjljAVs2wQy6GfXrpguCiaYiV/AIERyypKfUzYDl0I7zTXPYGBkWjAGrQ48xbjO6YL+TkrxVcOMJ4pSk92olgDgvGb2DrBjyrJ1kuh2Y2wptisiNaJBGsrj45TAI6otQy1hGByWBFBkPzSiOsIbEeZVF9WXjWUAc3CIeHONqqLhI45Hw3rIY77lbUdqhOYSd05Y5GiNzcMJUk59YzAXvxU62T5xMRBRG4VxEhn+FviYrSuezVIL9Y1VxqP9rW+CwA==" />
     </characteristic>
   </characteristic>
   <characteristic version="7.0" type="AppMgr">
