@@ -1,0 +1,115 @@
+﻿<wap-provisioningdoc>
+  <characteristic version="5.2" type="Wi-Fi">
+    <characteristic type="System">
+      <parm name="WiFiAction" value="enable" />
+      <parm name="WifiSleepPolicy" value="PluggedIn" />
+    </characteristic>
+    <parm name="UseRegulatory" value="0" />
+    <parm name="UseDiagnosticOptions" value="0" />
+    <parm name="UseAdvancedOptions" value="0" />
+    <parm name="NetworkAction" value="Remove" />
+    <characteristic type="network-profile">
+      <parm name="SSID" value="101" />
+    </characteristic>
+    <parm name="UseHotspotOptions" value="0" />
+  </characteristic>
+  <characteristic version="5.2" type="Wi-Fi">
+    <parm name="UseRegulatory" value="0" />
+    <parm name="UseDiagnosticOptions" value="0" />
+    <parm name="UseAdvancedOptions" value="0" />
+    <parm name="NetworkAction" value="Add" />
+    <characteristic type="network-profile">
+      <parm name="SSID" value="ZGuest" />
+      <parm name="SecurityMode" value="1" />
+      <parm name="WPAMode" value="3" />
+      <characteristic type="auth-details">
+        <characteristic type="encryption-details">
+          <parm name="EncryptionWPA2" value="1" />
+        </characteristic>
+      </characteristic>
+      <characteristic type="key-details">
+        <parm name="KeyType" value="Passphrase" />
+        <parm name="ProtectKey" value="1" />
+        <parm name="PassphraseWPAEncrypted" value="&amp;#1270&amp;#127RNBc+ojZTybSI7rzPSF72GhCHHRnaHzI49KfRD96xqWI0Ah91WfjJSRG31B7egF89nfdMfgrH0xp8rF90acN8d6Pf1sL7X7BYgdgFMV6hcwBwhna4SxwSZWrUDYuFIqdWzLfS/Yzixyk2JN8ocawP2+8x7IWkpcRg8AwNwrghiBCBxnlULtMnge+5F0JsLaCB8vv9OqSp0M/3MDbjNZArZnDFMlfY13ANK90XxDkP8I4+DP9TsSjEKCKAn/oNVlem+a6dcCHokkScA7hrvYh1Mr/Zkk4RDbbsOi059d0Hc/DTApSW1/45DbPdDNHYiVnf7qAlaQOq26yOeo7VdFeWA==" />
+      </characteristic>
+      <parm name="UseDHCP" value="1" />
+      <parm name="UseProxy" value="0" />
+    </characteristic>
+    <parm name="UseHotspotOptions" value="0" />
+  </characteristic>
+  <characteristic version="5.2" type="Wi-Fi">
+    <parm name="UseRegulatory" value="0" />
+    <parm name="UseDiagnosticOptions" value="0" />
+    <parm name="UseAdvancedOptions" value="0" />
+    <parm name="NetworkAction" value="Connect" />
+    <characteristic type="network-profile">
+      <parm name="SSID" value="ZGuest" />
+    </characteristic>
+    <parm name="UseHotspotOptions" value="0" />
+  </characteristic>
+  <characteristic version="4.2" type="UsbMgr">
+    <parm name="UsbADBUsage" value="1" />
+  </characteristic>
+  <characteristic version="6.0" type="Clock">
+    <parm name="AutoTimeZone" value="false" />
+    <parm name="TimeZone" value="Europe/Prague" />
+    <parm name="AutoTime" value="true" />
+    <characteristic type="AutoTimeDetails">
+      <parm name="NTPServer" value="time.google.com" />
+      <parm name="SyncInterval" value="00:30:00" />
+    </characteristic>
+  </characteristic>
+  <characteristic version="7.1" type="UiMgr">
+    <parm name="CurrentLocale" value="en" />
+  </characteristic>
+  <characteristic version="7.0" type="Intent">
+    <parm name="Action" value="Broadcast" />
+    <parm name="ActionName" value="com.symbol.rxlogger.intent.action.ENABLE" />
+  </characteristic>
+  <characteristic version="7.1" type="PowerMgr">
+    <parm name="SUWByPass" value="1" />
+  </characteristic>
+  <characteristic version="4.2" type="PersistMgr">
+    <parm name="PersistAction" value="1" />
+    <characteristic type="persist-details">
+      <parm name="PersistAsName" value="DO_LAB_SOTI" />
+      <parm name="PersistAsVersion" value="4.0" />
+      <parm name="PersistAsOrder" value="1" />
+      <parm name="PersistIfError" value="false" />
+    </characteristic>
+  </characteristic>
+  <characteristic version="5.0" type="FileMgr">
+    <parm name="FileAction" value="1" />
+    <characteristic type="file-details">
+      <parm name="TargetAccessMethod" value="2" />
+      <parm name="TargetPathAndFileName" value="/sdcard/GoogleMobiControl_AE.apk" />
+      <parm name="SourceAccessMethod" value="1" />
+      <parm name="SourceURI" value="&amp;#1270&amp;#127OH83Db/IYNIX7nnGDHYrL8Gys+bT+XDzE+DeFotNv8idJVvEPiXZkf/SBLDASc++tl/t9l/0A9uww4GBOBsao7vMZA9Cp+F4kWU5Vm4/gicSdpHdI2ga4M8we9qG4ORxAkREQqZ8+6AKMpfbDHNOEzm5lqcAmoSMVI7nNdMNTgkXBNo0HUYyPOvpGN2m0bSzdIbrGht3oBBMM40geUKEm2nSYInknG6ncAlNPvb8heFTvlKshtSv529T3WH+HT3B/nT63ZkLUlh6mq9oitdAkhkuJdLutlswqioH6zv0Dxz/Tzi0FmmfIdLS6ILnhvTEMzMX9r4Siw5YWTuBBCdAbg==" />
+    </characteristic>
+  </characteristic>
+  <characteristic version="5.0" type="FileMgr">
+    <parm name="FileAction" value="1" />
+    <characteristic type="file-details">
+      <parm name="TargetAccessMethod" value="2" />
+      <parm name="TargetPathAndFileName" value="/sdcard/mcsetup.ini" />
+      <parm name="SourceAccessMethod" value="3" />
+      <parm name="SourceType" value="1" />
+      <parm name="SourceDataAny" value="W0NvbW1dDQpSZXRyeURlbGF5PTMwMDAwDQpCcm9hZGNhc3Q9MA0KDQoNCltNQ0NBc10NCkNBMT0zMDgyMDJENDMwODIwMjNEQTAwMzAyMDEwMjAyMDgzQUM5NzMzMEFCNzk1Rjc3MzAwRDA2MDkyQTg2NDg4NkY3MEQwMTAxMEIwNTAwMzA0RDMxMUMzMDFBMDYwMzU1MDQwMzEzMTM0RDZGNjI2OTQzNkY2RTc0NzI2RjZDMjA1MjZGNkY3NDIwNDM0MTMxMkQzMDJCMDYwMzU1MDQyRTEzMjQ0NjQxMzA0NTMxMzA0NTQ0MkQ0NjM1MzczNzJEMzQzMzM3NDYyRDQyNDQzMzMyMkQzMTQzMzczNjM4MzUzNTM5MzQ0MzQ2MzMzMDFFMTcwRDMwMzAzMDMxMzAzMTMwMzAzMDMwMzAzMDVBMTcwRDM0MzMzMDMzMzAzNjMwMzAzMDMwMzAzMDVBMzA0RDMxMUMzMDFBMDYwMzU1MDQwMzEzMTM0RDZGNjI2OTQzNkY2RTc0NzI2RjZDMjA1MjZGNkY3NDIwNDM0MTMxMkQzMDJCMDYwMzU1MDQyRTEzMjQ0NjQxMzA0NTMxMzA0NTQ0MkQ0NjM1MzczNzJEMzQzMzM3NDYyRDQyNDQzMzMyMkQzMTQzMzczNjM4MzUzNTM5MzQ0MzQ2MzMzMDgxOUYzMDBEMDYwOTJBODY0ODg2RjcwRDAxMDEwMTA1MDAwMzgxOEQwMDMwODE4OTAyODE4MTAwQUUyMjBFMTg4MERDMkU5RDc4MTY1N0I2MkZDRTZDOTU2ODNGNkRCODYwM0QyNjgwN0FFMDk5ODE2NjdCRjMyQjMxN0EyODk4RkI4QjZGQTZFQzEwQkRGMzA3ODg5OEFCQjc2MjQ1ODZEOTJBRTMzRjQ2REQ3Qzk2NjU2RUMyQUVFNzQ1REVERDFFOTQzRkI1NTJCRTNGNjA2NTQ4QjFDNjI3RkY0N0U4N0Q3NDFEQUVGOTQyRjFFREE5NUQ3Mjc1ODYxNUI5RjVGREMzQTQxNDM3Q0Y4NjY5MjI1MTFEQjJEMTE4NTc4QjkwREYyRkE3MUFENkRBOEY1MTY5QzQzRjAyMDMwMTAwMDFBMzgxQkMzMDgxQjkzMDFEMDYwMzU1MUQwRTA0MTYwNDE0ODUyMzgzNEE3MTk1NjMyQTUxQkQ3MjBENTA4NkU0MTFBMkQyNzgyNTMwMEIwNjAzNTUxRDBGMDQwNDAzMDIwMUM2MzAwRjA2MDM1NTFEMTMwNDA4MzAwNjAxMDFGRjAyMDEwMTMwN0EwNjAzNTUxRDAxMDQ3MzMwNzE4MDE0ODUyMzgzNEE3MTk1NjMyQTUxQkQ3MjBENTA4NkU0MTFBMkQyNzgyNUExNEYzMDREMzExQzMwMUEwNjAzNTUwNDAzMTMxMzRENkY2MjY5NDM2RjZFNzQ3MjZGNkMyMDUyNkY2Rjc0MjA0MzQxMzEyRDMwMkIwNjAzNTUwNDJFMTMyNDQ2NDEzMDQ1MzEzMDQ1NDQyRDQ2MzUzNzM3MkQzNDMzMzc0NjJENDI0NDMzMzIyRDMxNDMzNzM2MzgzNTM1MzkzNDQzNDYzMzgyMDgzQUM5NzMzMEFCNzk1Rjc3MzAwRDA2MDkyQTg2NDg4NkY3MEQwMTAxMEIwNTAwMDM4MTgxMDAxQjMxNDM1RjQxRjFBRTY5M0Y5OTY1NERDMkRDNDJFOTIzMzMxRUNCQzFFNUM0RkFGOTBGRjIwQUU4MjM2NzU1Q0Q0NzNBNjE2OUI4N0FGREVCNDgxMkFCRjRFQ0VDMzJBODBCMUU4OENBRUNEOTVCRjA5RDExRTEzMjAwNEY1Q0M0MjkwMUI3QTJBRDgxNTA3NEY2QzgzNzVEMTAyNEQ2MjJCMzA3NTJERkI5N0ZERDU2OUM1Q0FFMDQxNkJGMURBNTI5ODc0Q0NGRTMyOTg2MEI1MDBGQ0RDRUMyMTEwNzVCM0U2NzVDNkIxMThEOERGQUREQjE2QzU4MjhFRkM3DQoNCg0KQ0EyPTMwODIwMkQ0MzA4MjAyM0RBMDAzMDIwMTAyMDIwODFEODU5MDkxMEVFOUY0NzkzMDBEMDYwOTJBODY0ODg2RjcwRDAxMDEwNTA1MDAzMDREMzExQzMwMUEwNjAzNTUwNDAzMTMxMzRENkY2MjY5NDM2RjZFNzQ3MjZGNkMyMDUyNkY2Rjc0MjA0MzQxMzEyRDMwMkIwNjAzNTUwNDJFMTMyNDM0NDU0NTM4MzMzNTM5MzMyRDM1NDQ0NTQxMkQzNDQ2NDEzMTJENDE0NDM4NDQyRDQzMzczMTQ1Mzc0MTQ0MzM0NjMwMzEzNTMwMUUxNzBEMzAzMDMwMzEzMDMxMzAzMDMwMzAzMDMwNUExNzBEMzQzNTMwMzMzMTM4MzAzMDMwMzAzMDMwNUEzMDREMzExQzMwMUEwNjAzNTUwNDAzMTMxMzRENkY2MjY5NDM2RjZFNzQ3MjZGNkMyMDUyNkY2Rjc0MjA0MzQxMzEyRDMwMkIwNjAzNTUwNDJFMTMyNDM0NDU0NTM4MzMzNTM5MzMyRDM1NDQ0NTQxMkQzNDQ2NDEzMTJENDE0NDM4NDQyRDQzMzczMTQ1Mzc0MTQ0MzM0NjMwMzEzNTMwODE5RjMwMEQwNjA5MkE4NjQ4ODZGNzBEMDEwMTAxMDUwMDAzODE4RDAwMzA4MTg5MDI4MTgxMDBDQkVGOEUxQkI3QzY0NjA1RkZCQjBERjM3NjFBMTA0MEE1Q0IwREFBMEYzNUVEOEQ3NEQ3QTUyNDIxMkI1OTgwRDIxRTM4NEVFQUFBQUNCMzczM0NDQzZCQjVEMkEyMkQyOTVGMTM2QzY4QUU0RDAwOEZGNDAyMjc0N0JBOUEwQjBERENDMDE0MDhGMjg5MjQ3RDhDOUM3Qjk4OERBNTE5RTM5MTU0RDFFODcwNjI2Rjc5NUJDOTYxNEU0REVGMkExOEJGRUQxQUVGRTY2NDEzMUNDQkFDRDIwQUFCMDkzRUE2NkVFNTU0RjIzQTVEQkEzNTY2OTRDOTQzQTY0MUM1MDIwMzAxMDAwMUEzODFCQzMwODFCOTMwMUQwNjAzNTUxRDBFMDQxNjA0MTRFQzgwQzMzOTU1RTUyMzVFRDIyRUVCQjhCNzA2MDNGNDJGOTQwOTQ5MzAwQjA2MDM1NTFEMEYwNDA0MDMwMjAxQzYzMDBGMDYwMzU1MUQxMzA0MDgzMDA2MDEwMUZGMDIwMTAxMzA3QTA2MDM1NTFEMDEwNDczMzA3MTgwMTRFQzgwQzMzOTU1RTUyMzVFRDIyRUVCQjhCNzA2MDNGNDJGOTQwOTQ5QTE0RjMwNEQzMTFDMzAxQTA2MDM1NTA0MDMxMzEzNEQ2RjYyNjk0MzZGNkU3NDcyNkY2QzIwNTI2RjZGNzQyMDQzNDEzMTJEMzAyQjA2MDM1NTA0MkUxMzI0MzQ0NTQ1MzgzMzM1MzkzMzJEMzU0NDQ1NDEyRDM0NDY0MTMxMkQ0MTQ0Mzg0NDJENDMzNzMxNDUzNzQxNDQzMzQ2MzAzMTM1ODIwODFEODU5MDkxMEVFOUY0NzkzMDBEMDYwOTJBODY0ODg2RjcwRDAxMDEwNTA1MDAwMzgxODEwMDgwRkNENjU1NTFDRDIzMkVBQjE4N0NENDQxMDEwQjI2QkQ4NDExRkU3NDJCNDEyMDY1Q0VCRDlEQzBDNURDRkRBNzYxODgxRjVFOTQwMEI5RDgwNzY4N0U5RDFEOENCMEJCMjc5RTkwNTczQjU1RDJCRkU1Nzk5MEQ1MkJGOUUwMzAwNEE4QTk5NzVCRDk3QTIyQzZDNDdFRjRDMTlEN0ZGNzBFNTg4MEQ0QkZEMzZBOTdDQjNGNDczOUE0QzlEMjYxMjkxNzAyNjlCRjI0ODQ2RjYzMTFEQkM1NUFCQjEzQUNGMUE3OEI1RTQyMTU5MTNDQTBENTM2NjRCMTM4REYNCg0KDQpbRGV2aWNlXQ0KRGV2aWNlQ2xhc3M9MDZDQjlDNjctNjI4Ri01OTExLUNCNDEtN0RDNzczNjFENTk3DQpOYW1lVHlwZT0yDQpEZXZpY2VOYW1lPUxBQl8lTU9ERUwlIF8lU0VSSUFMTlVNJQ0KU2lsZW50QWRtaW5BY3RpdmF0aW9uPTENClN5bmNUaW1lcj0wDQoNCg0KW0luZm9dDQpNZXRob2Q9OTUNClNpdGVOYW1lPVMwMTc2NzkNCg0KDQpbQ29ubmVjdGlvbl0NCkRlcGxveVN2cjE9UzAxNzY3OS5tb2JpY29udHJvbGNsb3VkLmNvbTo1NDk0DQo=" />
+    </characteristic>
+  </characteristic>
+  <characteristic version="7.0" type="AppMgr">
+    <parm name="Action" value="Install" />
+    <parm name="APK" value="/sdcard/GoogleMobiControl_AE.apk" />
+  </characteristic>
+  <characteristic version="7.0" type="Intent">
+    <parm name="Action" value="EnrollDeviceOwner" />
+    <parm name="Package" value="net.soti.mobicontrol.androidwork" />
+    <parm name="Class" value="net.soti.mobicontrol.admin.DeviceAdminAdapter" />
+  </characteristic>
+  <characteristic version="7.0" type="Intent">
+    <parm name="Action" value="StartActivity" />
+    <parm name="ActionName" value="android.intent.action.MAIN" />
+    <parm name="Package" value="net.soti.mobicontrol.androidwork" />
+    <parm name="Class" value="net.soti.mobicontrol.startup.SplashActivity" />
+  </characteristic>
+</wap-provisioningdoc>
