@@ -9,8 +9,8 @@
 "android.app.extra.PROVISIONING_WIFI_SSID":"ZGuest",
 "android.app.extra.PROVISIONING_WIFI_SECURITY_TYPE":"WPA/WPA2",
 "android.app.extra.PROVISIONING_WIFI_PASSWORD":"ZD510-HCxx",
-"android.app.extra.PROVISIONING_SKIP_ENCRYPTION":"false",
-"android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":"true",
+"android.app.extra.PROVISIONING_SKIP_ENCRYPTION" : false,
+"android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED" : true,
 "android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE":{
 "enrollmentId":"FEMXVK69"
 }
