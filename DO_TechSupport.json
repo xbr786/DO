@@ -4,13 +4,14 @@
 "android.app.extra.PROVISIONING_DEVICE_ADMIN_SIGNATURE_CHECKSUM":
 "hn8mSNJMPcovWbnnWrb-uMpWZjNlNp-jyV_2A-Whumc=\n",
 "android.app.extra.PROVISIONING_DEVICE_ADMIN_PACKAGE_DOWNLOAD_LOCATION":
-"http://soti.net/apk/ae3","android.app.extra.PROVISIONING_LOCALE":"en_US",   
+"https://downloads.soti.net/apk/AEAgent/GoogleMobiControl1440_1028.apk",
+"android.app.extra.PROVISIONING_LOCALE":"en_US",   
 "android.app.extra.PROVISIONING_TIME_ZONE":"Europe/Prague",
 "android.app.extra.PROVISIONING_WIFI_SSID":"ZGuest",
-"android.app.extra.PROVISIONING_WIFI_SECURITY_TYPE":"WPA/WPA2",
+"android.app.extra.PROVISIONING_WIFI_SECURITY_TYPE":"WPA",
 "android.app.extra.PROVISIONING_WIFI_PASSWORD":"ZD510-HCxx",
-"android.app.extra.PROVISIONING_SKIP_ENCRYPTION" : false,
-"android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED" : true,
+"android.app.extra.PROVISIONING_SKIP_ENCRYPTION":false,
+"android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED":true,
 "android.app.extra.PROVISIONING_ADMIN_EXTRAS_BUNDLE":{
 "enrollmentId":"FEMXVK69"
 }
