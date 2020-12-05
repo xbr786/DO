@@ -1,0 +1,8 @@
+﻿<wap-provisioningdoc>
+  <characteristic version="8.1" type="PowerMgr">
+    <parm name="ResetAction" value="10" />
+    <characteristic type="file-details">
+      <parm name="ZipFile" value="/Download/HE_DELTA_UPDATE_01-30-04.00-OG-U15-STD.zip" />
+    </characteristic>
+  </characteristic>
+</wap-provisioningdoc>
