@@ -137,7 +137,7 @@ EnterpriseBrowser_v3.3.0.5 Configuration file
 	  
       <General>
 		<usetabbar value="1"/>
-        <tabbarxmlpath value="file:///storage/emulated/0/Android/data/com.zebra.mdna.enterprisebrowser/Tabbar.xml"/>
+        <tabbarxmlpath value="file://%INSTALLDIR%/Tabbar.xml"/>
       </General>
       
       <Scanner>
