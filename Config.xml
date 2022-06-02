@@ -1,10 +1,10 @@
 <?xml version = "1.0"?>
 <!--
-EnterpriseBrowser_v3.2.5.0 Configuration file
+EnterpriseBrowser_v3.3.0.5 Configuration file
 -->
 <Configuration>
-   <EB_VERSION value="3.2.5.0"/>
-   
+   <EB_VERSION value="3.3.0.5"/>
+  <HideSystemBar value ="0"/> 
   <DebugButtons>
     <DebugButtonsEnabled value="0" />
   </DebugButtons>
@@ -23,12 +23,10 @@ EnterpriseBrowser_v3.2.5.0 Configuration file
     <DebugModeEnable value="0"/>
   </DebugSetting> 
 	
-
-  
-
+ 
 
   <Shortcut>
-    <ShortcutCreationEnabled value="0"/>
+    <ShortcutCreationEnabled value="1"/>
   </Shortcut>
   
   <CustomKioskMode>
@@ -39,7 +37,9 @@ EnterpriseBrowser_v3.2.5.0 Configuration file
 	<setRecentAppDisable    value ="0"/>
   </CustomKioskMode>
   <IME>
-	<DisableAllIME value ="0"/>
+	<DisableAllIME value ="1"/>
+	<SetKeyboardOnLaunchOrForeground value =""/>
+	<SetKeyboardOnExitOrBackground value =""/>
   </IME>
   <ZoomKey>
     <ZoomInKey value=""/> 
@@ -62,22 +62,28 @@ EnterpriseBrowser_v3.2.5.0 Configuration file
     
   <FileLocations>
     <RegEXFile  value="file://%INSTALLDIR%/RegEx.xml"/>
+	<buttonxmlfile value="file://%INSTALLDIR%/android_sap/EKBCustomLayouts.encrypted" />
+	<customxmlfile  value="file://%INSTALLDIR%/android_sap/CustomScript.xml"/>
+	<keycodemappingxmlfile value="file://%INSTALLDIR%/android_sap/keycodemapping.xml"/>
   </FileLocations>
       
   <Screen>
-    <FullScreen value="1"/>
-    <PageZoom value="1.0" />
-    <EnableZoom value="1"/>
-    <DisplayZoomControls value="0"/>
+    <FullScreen value="0"/>
+	<PageZoom value="1.0" />
+	<EnableZoom value="1"/>
+	<DisplayZoomControls value="0"/>
+	<AutoRotate value="0"/>
   </Screen>
   
+ 
+	
   <TTS>
-	<TTSEnabled value="1"/>
-    <WelcomeText value="Enterprise Browser 3.2.5.0"/>
+    <TTSEnabled value="0"/>
+    <WelcomeText value="Enterprise Browser is now voice enabled"/>
   </TTS>
   
   <InjectEBLibraries>
-	<JSLibraries value="0"/>
+	<JSLibraries value="1"/>
   </InjectEBLibraries>
   
   <SplashScreen>
@@ -89,29 +95,33 @@ EnterpriseBrowser_v3.2.5.0 Configuration file
     <WakeLockType value=""/>
   </WakeLock>
  
-  
+ 
    
   <DeviceKeys>
   </DeviceKeys>
   
-  <Navigation>
-    <NavTimeout value="45000"/>
-  </Navigation>
 
- 
+
+  <ScreenOrientation>    
+	<LockOrientation value= "Auto"/>
+  </ScreenOrientation>
  
   <TabInstance>
     <NewTabPhysicalMemLimit value="90"/>
     <NewTabVirtualMemLimit value="80"/>
   </TabInstance>
-
+  
+  <Engine>
+    <EngineInUse value="AndroidStock"/>
+  </Engine>
+  
   <Applications>
     <Application>
       
       <HTTP_Proxy value=""/>
       <HTTPS_Proxy value=""/>
       <isWindowsKey  value="0"/>
-      <usedwforscanning  value="0"/>
+      <usedwforscanning  value="1"/>
       <DisableHardwareAcceleration value="0"/>
 	  
 	  <BackgroundOnHomeKeyPressed>
@@ -126,8 +136,8 @@ EnterpriseBrowser_v3.2.5.0 Configuration file
       </IntentReceiver>
 	  
       <General>
-        <Name value="Menu"/>
-        <StartPage value="https:/www.google.com" name="Menu"/>
+		<usetabbar value="1"/>
+        <tabbarxmlpath value="file:///storage/emulated/0/Android/data/com.zebra.mdna.enterprisebrowser/Tabbar.xml"/>
       </General>
       
       <Scanner>
@@ -139,7 +149,8 @@ EnterpriseBrowser_v3.2.5.0 Configuration file
 		<ClearApplicationCacheOnLaunch value="0"/>	
         <ClearApplicationCacheOnExit value="0"/>		
       </ApplicationCache>
-   
+      
+	
       
       <HTMLStyles>
         <JavascriptEnabled value="1"/>
@@ -152,7 +163,26 @@ EnterpriseBrowser_v3.2.5.0 Configuration file
       
       <SIP>
         <ResizeOnSIP  value="1"/>
+		<ResizeOnButtonbar value="0"/>
+		<ButtonBarMaxHeight value="default"/> 
       </SIP>
+	  <KeyboardConfiguration>
+		<KeyboardType  value="enterprisekeyboard"/>
+		<KeyboardVisibility value="onDemand"/>
+        <ondemand>
+           <onHardwarekeypress value="1"/>
+           <HardwarekeyValue value="140"/>
+           <onFocus value="1"/>
+        </ondemand>	  
+	  </KeyboardConfiguration>
+	  <SapCustomization> 
+		<customcssfile value="file://%INSTALLDIR%/android_sap/sapstyle.txt"/>
+		<SapButtonHeight value=""/>
+		<SapButtonFontSize value=""/> 
+		<SapForceFitToScreen value="0"/> 
+		<MobileEditDisabledWidth value="auto"/>
+	  </SapCustomization>
+
 
       <System>
         <LowBatteryScan  value="0"/>
@@ -177,13 +207,14 @@ EnterpriseBrowser_v3.2.5.0 Configuration file
       </GUI>
       
       <Navigation>
+		<NavTimeout value="45000"/>
         <BadLinkURI value="file://%INSTALLDIR%/badlink.html"/>
         <UserAgent value="" />
 		<NetworkCookieDatabase value="file://%INSTALLDIR%/cookies.db"/>
 		<VerifyPeerCertificate value="1"/>
     	<Cookies value="1"/>		
-		<ThirdPartyCookies value="1"/>
-		<DeleteCookiesOnLaunch value="0"/>
+		<ThirdPartyCookies value="0"/>
+		<DeleteCookiesOnLaunch value="1"/>
 		<DeleteCookiesOnExit value="0"/>
 		<SaveFormData value="0"/>
 	    <SetCacheMode value="LOAD_DEFAULT"/>
@@ -195,17 +226,24 @@ EnterpriseBrowser_v3.2.5.0 Configuration file
 	  </Navigation>   
 	  
 	  <ViewPort>
-		<UseWideViewPort value="0"/>
-		<ViewPortWidth value=""/>
-		<ViewPortInitialScale value=""/>
+		<UseWideViewPort value="1"/>
+		<ViewPortWidth value="device-width"/>
+		<ViewPortInitialScale value="1.0"/>
 	  </ViewPort>
     
-
+	  <DeviceKeys>
+        <EnableCtrlKey_A    value="1"/>
+        <EnableCtrlKey_C    value="1"/>
+        <EnableCtrlKey_V    value="1"/>
+        <EnableCtrlKey_O    value="0"/>
+        <EnableCtrlKey_P    value="0"/>
+      </DeviceKeys>
   
       <DefaultMetaTags>
+		<!--MetaTag value="QuitButton~visibility:visible;"/-->		
       </DefaultMetaTags>
 
-      <CustomDOMElements value=""/>
+      <CustomDOMElements value="file://%INSTALLDIR%/android_sap/mysaptags.txt"/>
     
     </Application>
   </Applications>
